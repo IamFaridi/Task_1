@@ -1,0 +1,56 @@
+/* basic */
+.full-height {
+  height: 100vh;
+}
+.h-100 {
+  height: 100%;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.p-10{
+  padding: 10px;
+}
+.f-40{
+  font-size: 40px;
+	line-height: 32px;
+}
+
+.f-48{
+  font-size: 48px;
+	line-height: 42px;
+}
+
+/* flex */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
+}
+
+/* bg-colors */
+.bg-dark {
+  background-color: #90948d;
+}
+.bg-light-blue {
+  background-color: #c5d0eb;
+}
+.bg-light-green {
+  background-color: #9ed5c2;
+}
+.bg-light-pink {
+  background-color: #f5cbcb;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-yellow {
+  background-color: #dbbf20;
+}
