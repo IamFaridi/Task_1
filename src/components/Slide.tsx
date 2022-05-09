@@ -2,9 +2,9 @@ import { FC } from "react";
 import Section from "./Section";
 import { SlideProps } from "./types";
 
-const Slide:FC<SlideProps> = ({ year, heading }) => {
+const Slide:FC<SlideProps> = ({ year, heading,bgColor }) => {
   const primaryStyle:string = "flex-center flex-1 h-100 bg-dark p-10";
-  const yellowBackground:string = " bg-yellow";
+  const yellowBackground:string = ` ${bgColor}`;
   const transparentBackground:string = " bg-transparent";
 
   const getClasses = (overwrite:string) => {

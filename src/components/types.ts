@@ -4,6 +4,8 @@ export interface SectionProps {
 }
 
 export interface SlideProps{
+    id?: string;
     year: string;
     heading?:boolean;
+    bgColor?: string;
 }
